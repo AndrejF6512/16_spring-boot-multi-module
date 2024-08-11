@@ -1,5 +1,9 @@
 # Force GitHub to consider .java files as Java
 *.java linguist-language=Java
 
-# Optionally, downplay JavaScript files
+# De-emphasize CSS files in language statistics
+*.css linguist-detectable=false
+
+# Optionally de-emphasize other non-Java files
 *.js linguist-detectable=false
+*.html linguist-detectable=false
